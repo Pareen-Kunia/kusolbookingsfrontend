@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.MuiButton-label a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 8px 23px;
+}
+
+.inputContainer {
+  padding: 15px;
+  width: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.MuiFormControl-root {
+  width: 100%;
+}
+
+.MuiListItem-button .MuiTypography-body1 {
+  text-align: center;
+}
+.app-confirmation .MuiTypography-body1 {
+  text-align: left !important;
+}
+
+.MuiIconButton-root {
+  padding: 0 !important;
+}
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+.appointment-date-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.MuiCollapse-container {
+  transition-duration: 0ms !important;
+  position: absolute;
+  top: 15px;
+  width: 85%;
+}
+.width50 {
+  width: 50%;
+}
+.MuiStepConnector-lineVertical {
+  min-height: 55px !important;
+}
+.MuiButton-text {
+  padding: 6px 2px !important;
+}
+.MuiList-padding {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.MuiContainer-root {
+  position: relative;
+}
+
+.MuiAppBar-colorPrimary,
+.MuiButton-containedPrimary {
+  background-color: #4c26af !important;
+}
+
+.MuiStepIcon-root,
+.MuiIconButton-root {
+  color: #4c26af !important;
+}
+
+.MuiIconButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26) !important;
+}
+
+/* On screens that are 992px wide or less */
+@media screen and (max-width: 992px) {
+}
+
+/* On screens that are 600px wide or less */
+@media screen and (max-width: 600px) {
+  .inputContainer {
+    width: 100%;
+  }
+  .MuiContainer-root {
+    padding: 0 !important;
+  }
+  .MuiStepper-root {
+    padding: 24px 15px !important;
+  }
+}
